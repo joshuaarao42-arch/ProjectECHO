@@ -4,7 +4,7 @@
 
 ### A private digital time capsule for the moments you want to revisit.
 
-Write a letter to your future self, save a milestone, or capture a memory—and choose when to open it.
+Write a letter to your future self, save a milestone, or capture a memory and choose when to open it.
 
 ![Platform: Windows](https://img.shields.io/badge/platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -33,6 +33,14 @@ Your vault is stored on your computer. Project ECHO does not use a cloud service
 | 📊 | **Reflect** | See writing activity, category and tag counts, and time between entries. |
 | 💾 | **Back up and restore** | Export encrypted backups and validate them before importing. |
 | 🎨 | **Make it yours** | Choose light, dark, or system appearance. |
+
+![image alt]()
+![image alt]()
+![image alt]()
+![image alt]()
+![image alt]()
+![image alt]()
+![image alt]()
 
 ## 🚀 Get started
 
