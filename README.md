@@ -35,7 +35,7 @@ Your vault is stored on your computer. Project ECHO does not use a cloud service
 | 🎨 | **Make it yours** | Choose light, dark, or system appearance. |
 
 ![image alt](https://github.com/joshuaarao42-arch/ProjectECHO/blob/main/ECHO/Screenshot%202026-10-30%20072953.png?raw=true)
-![image alt]()
+![image alt](https://github.com/joshuaarao42-arch/ProjectECHO/blob/main/ECHO/Screenshot%202026-10-30%20073053.png?raw=true)
 ![image alt]()
 ![image alt]()
 ![image alt]()
