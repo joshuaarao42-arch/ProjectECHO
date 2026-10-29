@@ -39,7 +39,7 @@ Your vault is stored on your computer. Project ECHO does not use a cloud service
 ![image alt](https://github.com/joshuaarao42-arch/ProjectECHO/blob/main/ECHO/Screenshot%202026-10-30%20073105.png?raw=true)
 ![image alt](https://github.com/joshuaarao42-arch/ProjectECHO/blob/main/ECHO/Screenshot%202026-10-30%20073116.png?raw=true)
 ![image alt](https://github.com/joshuaarao42-arch/ProjectECHO/blob/main/ECHO/Screenshot%202026-10-30%20073129.png?raw=true)
-![image alt]()
+![image alt](https://github.com/joshuaarao42-arch/ProjectECHO/blob/main/ECHO/Screenshot%202026-10-30%20073146.png?raw=true)
 ![image alt]()
 
 ## 🚀 Get started
