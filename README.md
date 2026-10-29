@@ -34,7 +34,7 @@ Your vault is stored on your computer. Project ECHO does not use a cloud service
 | 💾 | **Back up and restore** | Export encrypted backups and validate them before importing. |
 | 🎨 | **Make it yours** | Choose light, dark, or system appearance. |
 
-![image alt]()
+![image alt](https://github.com/joshuaarao42-arch/ProjectECHO/blob/main/ECHO/Screenshot%202026-10-30%20072953.png?raw=true)
 ![image alt]()
 ![image alt]()
 ![image alt]()
