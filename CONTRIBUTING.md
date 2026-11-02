@@ -1,21 +1,56 @@
-# Contributing to Project ECHO
+# Contributing to Project ECHO contribution guide
 
-Project ECHO is an offline-first Windows time capsule app for writing entries, setting unlock dates, and revisiting memories later.
+Thank you for your interest in improving this project.
 
-## Clone
+## Project overview
+
+Project ECHO contribution guide is maintained through community contributions, bug fixes, testing, and documentation improvements.
+
+## Getting started
+
 ```bash
 git clone https://github.com/joshuaarao42-arch/ProjectECHO.git
 cd ProjectECHO
 ```
-Use Python 3.10 or newer and follow the README's dependency and launch instructions.
 
-## Project-specific contributions
-- Capsule creation, categories, tags, search, and timeline browsing.
-- Unlock-date logic and countdowns.
-- Vault usability, backup, restore, and validation.
-- Writing summaries and appearance settings.
+Follow the README for any additional dependencies or platform-specific setup. Review the existing code before changing project structure.
 
-## Privacy and security
-Never weaken encryption, password handling, or key derivation to simplify a feature. Do not log capsule contents, passwords, or keys. Never commit real vault files, backups, or personal letters. Treat imported backups as untrusted input and validate them before changing local data.
+## Contribution areas
 
-Test locked/unlocked entries, date boundaries, search, backup export/import, and malformed backup files where relevant. Use fictional content in demonstrations. Security-related pull requests must explain the risk addressed and tests performed.
+Improve capsule creation, search, tags, unlock dates, vault usability, and backup and restore.
+
+Documentation, accessibility, and reproducible bug fixes are welcome too.
+
+## Project-specific checks
+
+Protect private entries and encryption. Never commit vault files, passwords, or keys. Validate imported backups and test that failed imports do not damage existing data.
+
+## Coding guidelines
+
+- Follow existing language, naming, formatting, and folder conventions.
+- Keep changes focused and explain non-obvious logic.
+- Validate inputs and handle errors clearly.
+- Avoid unrelated refactoring or unnecessary dependencies.
+- Never commit secrets, credentials, private records, or generated local data.
+
+## Testing
+
+Run the application and test all workflows affected by your change, including relevant edge cases. State the environment and tests performed. Include screenshots for interface changes and sample inputs with expected results for logic changes.
+
+## Branches and commits
+
+Create a branch from the default branch using a descriptive name, such as `feature/short-description`, `fix/short-description`, or `docs/short-description`.
+
+Use commit prefixes consistently: `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, and `test:`.
+
+## Pull requests
+
+Explain the problem, summarize the solution, link a related issue when available, and list the tests and results. Add screenshots or sample output when useful. Mention new dependencies, compatibility changes, and known limitations.
+
+## Issues and feature requests
+
+Search existing issues first. Include reproduction steps, expected and actual behavior, environment details, and sanitized logs or screenshots. Feature requests should explain the use case and expected benefit.
+
+## Code of conduct
+
+Be respectful, patient, and constructive. Critique code and ideas rather than people. Harassment, discrimination, and abusive behavior are not acceptable.
