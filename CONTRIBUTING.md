@@ -54,3 +54,8 @@ Search existing issues first. Include reproduction steps, expected and actual be
 ## Code of conduct
 
 Be respectful, patient, and constructive. Critique code and ideas rather than people. Harassment, discrimination, and abusive behavior are not acceptable.
+
+
+## Running the automated test suite
+
+From the repository root, run `python -m unittest discover -s tests -t . -v`. On Windows, you can also use `run_tests.bat`. Include the command and its result in your pull request description when relevant.
