@@ -62,6 +62,14 @@ class DateTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             dates.parse_time_input("25:00")
 
+    def test_rejects_non_padded_date_and_time_components(self):
+        for value in ("2026-5-04", "2026-05-4", "2026-5-4"):
+            with self.subTest(value=value), self.assertRaisesRegex(ValueError, "YYYY-MM-DD"):
+                dates.parse_date_input(value)
+        for value in ("7:30", "07:3", "7:3"):
+            with self.subTest(value=value), self.assertRaisesRegex(ValueError, "HH:MM"):
+                dates.parse_time_input(value)
+
     def test_elapsed(self):
         text = dates.elapsed_description(datetime(2024, 1, 1), datetime(2026, 3, 5))
         self.assertIn("2 years", text)
