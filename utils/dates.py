@@ -27,7 +27,10 @@ def from_iso(text: str) -> datetime:
 def parse_date_input(text: str) -> date:
     """Parse a user-entered date (YYYY-MM-DD)."""
     try:
-        return datetime.strptime(text.strip(), DATE_INPUT_FORMAT).date()
+        value = datetime.strptime(text.strip(), DATE_INPUT_FORMAT).date()
+        if value.strftime(DATE_INPUT_FORMAT) != text.strip():
+            raise ValueError("Date must use zero-padded YYYY-MM-DD.")
+        return value
     except ValueError as exc:
         raise ValueError("Use the date format YYYY-MM-DD.") from exc
 
@@ -35,7 +38,10 @@ def parse_date_input(text: str) -> date:
 def parse_time_input(text: str) -> time:
     """Parse a user-entered 24-hour time (HH:MM)."""
     try:
-        return datetime.strptime(text.strip(), TIME_INPUT_FORMAT).time()
+        value = datetime.strptime(text.strip(), TIME_INPUT_FORMAT).time()
+        if value.strftime(TIME_INPUT_FORMAT) != text.strip():
+            raise ValueError("Time must use zero-padded HH:MM.")
+        return value
     except ValueError as exc:
         raise ValueError("Use the time format HH:MM (24-hour).") from exc
 
